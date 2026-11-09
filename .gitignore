@@ -1,0 +1,13 @@
+# secrets and personal runtime data — never commit
+.env
+.env.*
+!.env.example
+data/
+*.apk
+*.xapk
+*.apks
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
